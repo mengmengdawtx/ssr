@@ -267,7 +267,7 @@ else
 #    fi
 fi
 cd /usr/local
-git clone https://git.fdos.me/stack/shadowsocksr.git
+git clone https://github.com/mengmengdawtx/shadowsocksr.git
 cd ./shadowsocksr
 git checkout manyuser
 git pull
@@ -332,7 +332,7 @@ do
         mv /usr/local/shadowsocksr/mudb.json /usr/local/mudb.json
         rm -rf /usr/local/shadowsocksr
         cd /usr/local
-        git clone https://git.fdos.me/stack/shadowsocksr.git
+        git clone https://github.com/mengmengdawtx/shadowsocksr.git
         if [[ $1 == develop ]];then
             cd ./shadowsocksr
             git checkout stack/dev
